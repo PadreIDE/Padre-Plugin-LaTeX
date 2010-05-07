@@ -44,4 +44,4 @@
 #   Mac OSX SMB mount metadata files
 \B\._
 # Avoid archives of this distribution
-\bPadre-Plugin-XML-[\d\.\_]+
+\bPadre-Plugin-LaTeX-[\d\.\_]+

@@ -1,28 +1,5 @@
-Revision history for Padre-Plugin-XML
+Revision history for Padre-Plugin-LaTeX
 
-0.07	to be released
-	fix ticket #943: crash on serialization of Task::SyntaxChecker::XML
-        (Zeno Gantner)
-
-0.06    2009.05.31
-        removed taint mode for tests, leading to build failures (jquelin)
-
-0.05    2009.2.1
-        catch and report some errors (HJANSEN)
-        do not try to tidy non-XML documents (HJANSEN)
-        enable folding (HJANSEN)
-        for Padre 0.26
-
-0.04    2009.1.5
-        for Padre 0.23
-
-0.03    2008.12.24
-        added syntax checking capabilities (HJANSEN)
-        comment_lines_str (FAYLAND)
-
-0.02
-        add a new Padre::Document::XML
-
-0.01    Date/time
+0.01    2010-05-??
         First version, released on an unsuspecting world.
 

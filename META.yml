@@ -1,29 +1,24 @@
 ---
-name: Padre-Plugin-XML
-version: 0.06
+name: Padre-Plugin-LaTeX
+version: 0.01
 author:
-  - 'Fayland Lam <fayland@gmail.com>'
-abstract: L<Padre> and XML
+  - 'Zeno Gantner <zeno.gantner@gmail.com>'
+abstract: L<Padre> and LaTeX
 license: perl
 resources:
   homepage: http://padre.perlide.org/
   license: http://dev.perl.org/licenses/
-  repository: http://svn.perlide.org/padre/trunk/Padre-Plugin-XML/
+  repository: http://svn.perlide.org/padre/trunk/Padre-Plugin-LaTeX/
 requires:
-  Padre: 0.26
-  XML::LibXML: 1.67
-  XML::Tidy: 0
+  Padre: 0.60
 build_requires:
   Test::More: 0
 provides:
-  Padre::Document::XML:
-    file: lib/Padre/Document/XML.pm
-    version: 0.03
-  Padre::Plugin::XML:
-    file: lib/Padre/Plugin/XML.pm
-    version: 0.06
-  Padre::Task::SyntaxChecker::XML:
-    file: lib/Padre/Task/SyntaxChecker/XML.pm
+  Padre::Document::LaTeX:
+    file: lib/Padre/Document/LaTeX.pm
+    version: 0.01
+  Padre::Plugin::LaTeX:
+    file: lib/Padre/Plugin/LaTeX.pm
     version: 0.01
 generated_by: Module::Build version 0.33
 meta-spec:

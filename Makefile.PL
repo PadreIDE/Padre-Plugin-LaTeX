@@ -2,13 +2,10 @@
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-          'NAME' => 'Padre::Plugin::XML',
-          'VERSION_FROM' => 'lib/Padre/Plugin/XML.pm',
+          'NAME' => 'Padre::Plugin::LaTeX',
+          'VERSION_FROM' => 'lib/Padre/Plugin/LaTeX.pm',
           'PREREQ_PM' => {
-                           'Padre' => '0.26',
-                           'Test::More' => 0,
-                           'XML::LibXML' => '1.67',
-                           'XML::Tidy' => 0
+                           'Padre' => '0.60',
                          },
           'INSTALLDIRS' => 'site',
           'EXE_FILES' => [],
